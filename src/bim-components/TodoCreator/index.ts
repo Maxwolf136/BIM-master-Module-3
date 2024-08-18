@@ -11,7 +11,7 @@ interface ToDo {
   camera: { position: THREE.Vector3, target: THREE.Vector3 }
   priority: ToDoPriority
 }
-
+2
 
 export class TodoCreator extends OBC.Component<ToDo[]> implements OBC.UI, OBC.Disposable {
   static uuid = "abd7f95b-809f-46ca-a804-80cc5d2219ec"
